@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Child Malnutrition Prediction</title>
+</head>
+<body bgcolor=#F0F8FF>
+
+<center><img src="static\prediction.gif" align="middle"></center>
+
+
+
+
+<table style="width:80%">
+    <tr>
+        <td>
+            <center>
+           <img src="static\LOGO.jpg" align="middle" width="500" height="300">
+        </center>
+        </td>
+    <td>
+        <center>
+
+        <h1 style="font-family:verdana;font-size:250%;color:Red;">Enter Value : </h1><br>
+
+    <form method="POST" action = "{{url_for('home')}}">
+        <b>
+            Height of the Child (in cm): <input type="text", name="a", placeholder="enter a value"/><br><br>
+            Weight of the Child (in gm): <input type="text", name="b", placeholder="enter a value"/><br><br>
+            <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+            </center>
+        </td>
+
+</tr>
+</table>
+<marquee><i>India contributes a third of the global burden of undernutrition, India accounts for more than 3 out of every 10 Stunted children in the world. India accounts for 25.5 Million children out of the 50.5 million children who are Wasted globally.
+</i></marquee>
+
+</body>
+</html>
