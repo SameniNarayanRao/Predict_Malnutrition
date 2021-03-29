@@ -2,4 +2,3 @@ Flask
 pickle-mixin
 sklearn
 gunicorn
-heroku ps:scale worker=1
